@@ -1,7 +1,7 @@
 @font-face {
 	font-family: 'NoteraPersonalUseOnly';
  	src: url('https://fontsforweb.com/public/fonts/34586/NoteraPersonalUseOnly.eot');
-	src: local('NoteraPersonalUseOnly'), url('http://fontsforweb.com/public/fonts/34586/NoteraPersonalUseOnly.ttf') format('truetype');
+	src: local('NoteraPersonalUseOnly'), url('https://fontsforweb.com/public/fonts/34586/NoteraPersonalUseOnly.ttf') format('truetype');
 }
 
 body {
