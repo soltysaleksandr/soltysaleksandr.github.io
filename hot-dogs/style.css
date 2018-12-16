@@ -3,30 +3,36 @@ body {
 	font-size: 20px;
 	color: #555559;
 }
+
 a {
 	text-decoration: none;
 }
+
 .clearfix:after {
 	content: "";
 	display: block;
 	clear: both;
 }
+
 /* 
 * HEADER
 */
 .header {
 	position: relative;
 }
+
 .header-img {
 	background: url(images/insta-images.png) repeat-x;
 	background-size: contain;
 	max-width: 100%;
 	padding-top: 28.125%;
 }
+
 .header-navigation {
 	min-height: 100px;
 	box-shadow: 0px 2px 7.68px 0.32px rgba(0, 0, 0, 0.11);
 }
+
 .header .menu {
 	text-align: center;
 	line-height: 100px;
@@ -38,37 +44,41 @@ a {
 	font-weight: 600;
 	text-transform: uppercase;
 }
+
 .header .menu .menu-item a {
 	color: #2e2e2e;
 }
+
 /* 
 * MORE-DOGS-SECTION
 */
+
 .more-dogs-section {
 	background: #fbfafa;
 	text-align: center;
 }
+
 .more-dogs-section .container {
 	display: inline-block;
 	margin: 110px 0 170px 0;
 	line-height: normal;
-	
 }
+
 .more-dogs-section .container .logo-container {
 	background: url(images/logo.png) no-repeat;
 	display: inline-block;
 	width: 92px;
 	height: 92px;
 	text-align: center;
-	
-
 }
+
 .more-dogs-section .container h1.title {
 	margin-top: 35px;
 	font-size: 56px;
 	font-weight: 300;
 	color: #555559;
 }
+
 .more-dogs-section .container input.more-dogs-btn {
 	background: #286782;
 	margin-top: 80px;
@@ -81,55 +91,64 @@ a {
 	color: #fff;
 	cursor: pointer;
 }
+
 /* 
 * CONTENT-SECTION
 */
+
 .content-section .container-node {
 	font-size: 0px; 
 }
+
 .content-section .container-node.even {
 	/*display: inline-flex;
 	flex-direction: row-reverse;
 	align-items: center;*/
-}
+} /* можно было всё на флексах построить */
+
 .content-section .container-node .node-description {
 	display: inline-block;
 	width: 50%;
 	vertical-align: middle;
 }
+
 .content-section .container-node .node-description .wrapper {
 	width: 65%;
 	margin: 0 auto;
 }
+
 .content-section .container-node .node-description h2 {
 	font-size: 24px;
 	font-weight: 700;
 }
+
 .content-section .container-node .node-description h2:before {
 	content: "\2015";
 	display: inline-block;
 	margin: 0 20px 0 -45px;
 	color: #286782;
 }
+
 .content-section .container-node .node-description p {
 	margin-top: 35px;
 	font-size: 18px;
 	font-weight: 300;
 }
+
 .content-section .container-node .node-img {
 	display: inline-block;
 	width: 50%;
 	vertical-align: middle;
 }
+
 .content-section .container-node .node-img img {
 	width: 100%;
 }
+
 /* 
 * FOOTER
 */
-.footer {
-	
-}
+
 .footer .container:after {
 	content: "";
 	display: inline-block;
@@ -137,6 +156,7 @@ a {
 	font-size: 0px;
 	overflow: hidden;
 }
+
 .footer .container {
 	background: #efefef;
 	width: 100%;
@@ -146,9 +166,8 @@ a {
 	font-size: 0;
 	font-weight: 400;
 	text-align: justify;
-	
-
 }
+
 .footer .container .left-part {
 	display: inline-block;
 	font-size: 14px;
@@ -160,118 +179,144 @@ a {
 	font-size: 14px;
 	line-height: 75px;
 }
+
 .footer .container .right-part li {
 	display: inline-block;
 	margin: 0 7px;
 }
+
 .footer .container .right-part a {
 	color: #555559;
 }
+
 /* 
 * MEDIA 768px
 */
+
 @media screen and (max-width: 768px) {
-/* 
-* MORE-DOGS-SECTION
-*/
+
+	/* 
+	* MORE-DOGS-SECTION
+	*/
+
 	.more-dogs-section .container {
 		margin: 80px 0 125px 0;
 	}
+
 	.more-dogs-section .container .logo-container {
 		width: 72px;
 		height: 72px;
 		background-size: cover;
 	}
+
 	.more-dogs-section .container h1.title {
 		margin-top: 25px;
 		font-size: 42px;
 	}
+
 	.more-dogs-section .container input.more-dogs-btn {
 		margin-top: 60px;
 		padding: 15px 25px;
 	}
+
 	/* 
 	* CONTENT-SECTION
 	*/
+
 	.content-section .container-node .node-description h2 {
 		font-size: 20px;
 	}
+
 	.content-section .container-node .node-description h2:before {
 		margin: 0 20px 0 -40px;
 	}
+
 	.content-section .container-node .node-description p {
 		margin-top: 27px;
 	}
-/* 
-* FOOTER
-*/
+
+	/* 
+	* FOOTER
+	*/
+
 	.footer .container {
 		padding: 0;
 		text-align: center;
 	}
+
 	.footer .container .left-part {
 		display: block;
 		font-size: 11px;
 		line-height: 55px;
 	}
+
 	.footer .container .right-part {
 		display: block;
 		font-size: 11px;
 		line-height: 55px;
 	}
+
 	.footer .container .right-part li {
 		margin: 0 5px;
 	}
 }
+
 /* 
 * MEDIA 600px
 */
+
 @media screen and (max-width: 600px) {
-/* 
-* HEADER
-*/
+
+	/* 
+	* HEADER
+	*/
+
 	.header-img {
 		background: url(images/insta-images.png) no-repeat;
 		background-size: cover;
 		max-width: 100%;
 		padding-top: 56.250%;
 	}
+
 	.header-navigation {
 		min-height: 75px;
 	}
+
 	.header .menu {
 		line-height: 75px;
 	}
-/* 
-* MORE-DOGS-SECTION
-*/
+
+	/* 
+	* MORE-DOGS-SECTION
+	*/
+
 	.more-dogs-section .container {
 		margin: 60px 0 105px 0;
 	}
 
-/* 
-* CONTENT-SECTION
-*/
+	/* 
+	* CONTENT-SECTION
+	*/
+
 	.content-section .container-node.even {
 		display: table;
 	}
+
 	.content-section .container-node .node-description {
 		width: 100%;
 		display: table-header-group;
 	}
+
 	.content-section .container-node .node-description .wrapper {
 		margin: 5% auto;
 	}
+
 	.content-section .container-node .node-description p {
 		margin-top: 25px;
 	}
+
 	.content-section .container-node .node-img {
 		width: 100%;
 		display: table-footer-group;
-
 	}
-
-
-
-
 }
