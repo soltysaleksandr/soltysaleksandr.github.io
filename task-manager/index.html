@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+        .task-list-wrapper {
+            display: flex;
+            justify-content: start;
+        }
+        .task-list__item {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px;
+        }
+        .task-list_pending {
+            background-color: rgb(94, 148, 199)
+        }
+        .task-list_perform {
+            background-color: rgb(124, 189, 129)
+        }
+        .task-list_finished {
+            background-color: rgb(224, 184, 131)
+        }
+        .task-list_pending,
+        .task-list_perform,
+        .task-list_finished {
+            width: 100px;
+            text-align: center;
+        }
+        .delete-btn {
+            margin: auto 0;
+        }
+        .delete-btn:hover {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="clock"></div>
+    <div id="taskListWrapper" class="task-list-wrapper">
+        <ul id="listPending" class="task-list_pending"></ul>
+        <ul id="listPerform" class="task-list_perform"></ul>
+        <ul id="listFinished" class="task-list_finished"></ul>
+    </div>
+
+
+    <!-- <div id="myDiv">my div</div> -->
+    <!-- <script src="deep-clone.js"></script> -->
+    <script src="clock.js"></script>
+    <!-- <script src="listeners.js"></script> -->
+</body>
+
+</html>
