@@ -467,7 +467,7 @@ template {
   display: flex;
   align-items: center; }
   .promotion-first-purchase__icon {
-    background: url("../../../../src/assets/images/sale-icon.png") no-repeat;
+    background: url("../../../src/assets/images/sale-icon.png") no-repeat;
     width: 40px;
     height: 40px;
     margin-right: 8px; }
